@@ -34,17 +34,17 @@ public abstract class SubscribeCallback {
     public static class BaseSubscribeCallback extends SubscribeCallback {
 
         @Override
-        public void status(@NotNull PubNub pubnub, @NotNull PNStatus pnStatus) {
+        public void status (@NotNull PubNub pubnub, @NotNull PNStatus pnStatus) {
 
         }
 
         @Override
-        public void message(@NotNull PubNub pubnub, @NotNull PNMessageResult pnMessageResult) {
+        public void message (@NotNull PubNub pubnub, @NotNull PNMessageResult pnMessageResult) {
 
         }
 
         @Override
-        public void presence(@NotNull PubNub pubnub, @NotNull PNPresenceEventResult pnPresenceEventResult) {
+        public void presence (@NotNull PubNub pubnub, @NotNull PNPresenceEventResult pnPresenceEventResult) {
 
         }
 
